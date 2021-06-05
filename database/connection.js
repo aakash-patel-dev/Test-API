@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 /* IF YOU WANT TO USE THIS DATABASE THEN YOU CAN BUT I THINK YOU HAVE TO CREATE YOUR OWN ACCOUNT AND USE IN IT */
 mongoose
   .connect(
-    `mongodb+srv://restAPI:<asdfghjkl>@cluster0.vecdp.mongodb.net/test`,
+    `mongodb+srv://restAPI:restapi@cluster0.vecdp.mongodb.net/test?retryWrites=true&w=majority`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
